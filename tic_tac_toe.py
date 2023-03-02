@@ -9,7 +9,7 @@ discord: Luděk M.#5570
 
 import os
 
-all_positions = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
+all_positions = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 blank_field = " "
 
 
