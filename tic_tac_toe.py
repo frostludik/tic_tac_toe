@@ -104,7 +104,7 @@ def check_winner(fields: dict, player_stamp: str) -> bool:
             (f['7'] == f['8'] == f['9'] == ps) or  # horizontal bottom
             (f['1'] == f['4'] == f['7'] == ps) or  # vertical left
             (f['2'] == f['5'] == f['8'] == ps) or  # vertical middle
-            (f['3'] == f['5'] == f['9'] == ps) or  # vertical right
+            (f['3'] == f['6'] == f['9'] == ps) or  # vertical right
             (f['1'] == f['5'] == f['9'] == ps) or  # diagonal \
             (f['3'] == f['5'] == f['7'] == ps))    # diagonal /
 
